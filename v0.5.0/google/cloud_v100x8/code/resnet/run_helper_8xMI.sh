@@ -36,7 +36,7 @@ python3 tf_cnn_benchmarks/tf_cnn_benchmarks.py --data_format=NCHW \
   --gradient_repacking=2 \
   --num_epochs=64 \
   --ml_perf \
-  --local_parameter_device=gpu \
+  --local_parameter_device=cpu \
   --num_gpus=8 \
   --display_every=100 \
   --xla_compile=False \
